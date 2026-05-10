@@ -9,7 +9,7 @@ public class RotatedBinarySearch {
         System.out.println("Pivot element: " + arr[pivot]);
     }
 
-    static int findPivot(int[] arr) {
+ static    int findPivot(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
 
